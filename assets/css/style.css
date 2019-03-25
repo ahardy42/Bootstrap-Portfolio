@@ -1,0 +1,93 @@
+body {
+    background-image: url("assets/images/white-waves.png");
+    font-family: Arial;
+}
+
+nav {
+    align-self: center;
+}
+
+header {
+    background-color: #ffffff
+}
+
+h1.mr-auto {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Georgia'
+}
+
+.section {
+    background-color: #ffffff;
+    max-width: 750px;
+    margin-bottom: 100px;
+    margin-left: 48px;
+}
+
+h1.border-bottom {
+    color: #4aaaa5;
+    font-family: 'Georgia'
+}
+
+p {
+    line-height: 2;
+    color: #777777;
+}
+
+footer {
+    border-top: 8px solid #4aaaa5;
+    background-color: #777777;
+}
+
+button.btn-primary {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    border-radius: 0;
+    height: 50px;
+}
+
+.small-collapse {
+    padding: 0 48px;
+    display: flex;
+}
+
+img.position-relative {
+    width: 100%;
+    height: 225px;
+}
+
+button.portfolio-btn {
+    top: 67%;
+    left: 0;
+    background-color: #4aaaa5;
+    color: #ffffff
+}
+
+button.contact {
+    width: 150px;
+    height: 50px;
+}
+
+@media screen and (max-width: 768px) {
+    .section {
+        width: 90%;
+        margin: 0 auto 100px auto;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .small-collapse {
+        padding: 0;
+        width: 100%;
+        flex-direction: column;
+    }
+    .small-collapse>h1 {
+        width: 100%;
+        margin: 0;
+        text-align: center;
+    }
+    .small-collapse>nav {
+        width: 34%;
+        margin: auto;
+    }
+}
